@@ -1,0 +1,103 @@
+body{
+  background-color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header h1 span.solutionslibre,
+header h2,
+#description{
+	      font-family: 'Josefin Sans Std Light', arial, serif;}
+#sla{
+  width: 133px;
+  height: 231px;
+  position: absolute;
+  background: url("sla.png") no-repeat scroll 0 top transparent;  
+  top: 0;
+  left: 80px;
+  -moz-box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+header h1,
+header h2,
+#description{ color: white;
+	      font-weight: bold;
+	      font-size: 20px;
+	      padding: 0 60px;}
+#keywords{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 90px;
+}
+header hgroup { display: block;
+		text-align: center;
+		margin-left: 193px}
+header h1{ display: inline-block;
+	   margin: 0;
+	   text-transform: uppercase;
+	   font-weight: bold;
+	   text-align: center;
+	   font-size: 3em;}
+header h1 span.solutionslibre,
+header h1 span.atlantique{display: block;}
+header h1 span.solutionslibre{border-bottom: 2px solid white; 
+			      padding-bottom: 4px;
+			      margin-bottom: 4px;
+			      font-weight: normal;}
+header h1 span.atlantique{font-size: 140%;}
+header h2{margin: 5px 0;
+	 font-size: 120%;}
+header, #content, footer{
+	  width: 800px;
+	  margin: 0 auto;}
+header{ background-color: #004F8A;
+	padding: 60px 0 1px 0;
+	display: block;
+	text-shadow: 0 0 20px rgba(60,60,60,0.5);
+	position: relative;}
+#content{ padding: 1px 0 60px 0; 
+	  background: url("content.png") no-repeat scroll 0 bottom #004F8A;}
+#location-and-dates{ color: white;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 0 20px rgba(60,60,60,0.5);}
+#location{
+  margin: 40px 0 0 0;
+  font-size: 4em;}
+#location span.nantes{
+  font-size: 1.2em}
+#location-and-dates span.nantes,
+#location-and-dates span.dom,
+#location-and-dates span.month{ color: #f9b217;}
+#location-and-dates{text-transform: uppercase;}
+
+#dates{font-size: 1.5em;
+       margin: 0 0 30px 0;}
+#month-and-year{ display: inline-block }
+#month-and-year span.month,
+#month-and-year span.year{ display: block; margin-top: -0.18em}
+#month-and-year span.month{ font-size: 130% }
+#month-and-year span.year{ font-size: 260%; letter-spacing: 0.1ex;}
+#days {font-size: 2em }
+#days span.dom{font-size: 2.2em;}
+#days span.dash{vertical-align: super;}
+#infos{ text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 200px;}
+footer{
+  text-align: center;
+  background: url("footer.png") no-repeat scroll 0 top white;
+  display:block;
+  padding: 1px 0 1px 0;
+  color: #063a65;
+  height: 304px;}
+
+footer p{
+  margin: 0 0 0 300px;
+}
