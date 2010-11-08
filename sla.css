@@ -34,6 +34,9 @@ header h2,
   font-style: italic;
   padding: 0 90px;
 }
+#wrapper{
+  background: url("content.jpg") no-repeat scroll 0 bottom #004F8A;
+}
 header hgroup { display: block;
 		text-align: center;
 		margin-left: 193px}
@@ -52,16 +55,14 @@ header h1 span.solutionslibre{border-bottom: 2px solid white;
 header h1 span.atlantique{font-size: 140%;}
 header h2{margin: 5px 0;
 	 font-size: 120%;}
-header, #content, footer{
+#wrapper, footer{
 	  width: 800px;
 	  margin: 0 auto;}
-header{ background-color: #004F8A;
-	padding: 60px 0 1px 0;
+header{ padding: 50px 0 1px 0;
 	display: block;
 	text-shadow: 0 0 20px rgba(60,60,60,0.5);
 	position: relative;}
-#content{ padding: 1px 0 60px 0; 
-	  background: url("content.png") no-repeat scroll 0 bottom #004F8A;}
+#content{ padding: 1px 0 60px 0; }
 #location-and-dates{ color: white;
 	font-weight: bold;
 	text-align: center;
@@ -93,7 +94,7 @@ header{ background-color: #004F8A;
 	font-weight: bold;}
 footer{
   text-align: center;
-  background: url("footer.png") no-repeat scroll 0 top white;
+  background: url("footer.jpg") no-repeat scroll 0 top white;
   display:block;
   padding: 1px 0 1px 0;
   color: #063a65;
