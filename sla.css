@@ -3,7 +3,7 @@ body{
   margin: 0;
   font-family: Arial, sans-serif;
 }
-
+img{border: 0}
 header h1 span.solutionslibre,
 header h2,
 #description{
@@ -86,10 +86,11 @@ header{ background-color: #004F8A;
 #days {font-size: 2em }
 #days span.dom{font-size: 2.2em;}
 #days span.dash{vertical-align: super;}
+#logos{
+	margin-top: 100px;}
 #infos{ text-transform: uppercase;
 	font-size: 30px;
-	font-weight: bold;
-	margin-top: 200px;}
+	font-weight: bold;}
 footer{
   text-align: center;
   background: url("footer.png") no-repeat scroll 0 top white;
@@ -97,7 +98,6 @@ footer{
   padding: 1px 0 1px 0;
   color: #063a65;
   height: 304px;}
-
 footer p{
   margin: 0 0 0 300px;
 }
